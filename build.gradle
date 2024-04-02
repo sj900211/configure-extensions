@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'run.freshr'
-version = '1.0.0.RELEASE'
+version = '1.0.0-SNAPSHOT'
 
 java {
   sourceCompatibility = '17'
@@ -41,10 +41,10 @@ dependencies {
   annotationProcessor 'org.projectlombok:lombok'
 
   // FreshR
-  implementation "${group}:library-core-utils:1.0.0.RELEASE"
-  implementation "${group}:library-core-enumeration-mapper:1.0.0.RELEASE"
-  implementation "${group}:library-core-exceptions:1.0.0.RELEASE"
-  annotationProcessor "${group}:library-docs-search-docs:1.0.0.RELEASE"
+  implementation "${group}:library-core-utils:1.0.0-SNAPSHOT"
+  implementation "${group}:library-core-enumeration-mapper:1.0.0-SNAPSHOT"
+  implementation "${group}:library-core-exceptions:1.0.0-SNAPSHOT"
+  annotationProcessor "${group}:library-docs-search-docs:1.0.0-SNAPSHOT"
 
   // Web Annotation Processor: library-docs-search-docs
   annotationProcessor 'org.springframework.boot:spring-boot-starter-web'
