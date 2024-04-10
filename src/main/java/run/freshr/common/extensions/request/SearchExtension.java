@@ -5,7 +5,6 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
-import run.freshr.common.annotations.SearchClass;
 import run.freshr.common.annotations.SearchComment;
 
 /**
@@ -18,7 +17,6 @@ import run.freshr.common.annotations.SearchComment;
  * @since 2024. 3. 27. 오전 10:06:24
  */
 @Data
-@SearchClass(base = true, extend = false)
 public class SearchExtension<ID> {
 
   @SearchComment("페이지 수 [1 부터 시작]")
